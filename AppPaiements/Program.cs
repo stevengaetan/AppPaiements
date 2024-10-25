@@ -11,5 +11,12 @@ internal class Program
         CarteCredit12.AfficherDetails();
         CarteCredit14.AfficherDetails();
         CarteCredit16.AfficherDetails();
+
+
+        Paypal PaieN1 = new Paypal(150, "Achat de Sparking Zero", "Songoku@dbz.com");
+        Paypal PaieN2 = new Paypal(2000, "Achat de levono Legion i7", "Zach@gmail.com");
+
+        PaieN1.AfficherDetails();
+        PaieN2.AfficherDetails();
     }
 }
