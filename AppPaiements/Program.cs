@@ -1,7 +1,15 @@
-﻿internal class Program
+﻿using AppPaiements;
+
+internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Hello, World!");
+        CarteCredit CarteCredit12 = new CarteCredit(200, "BIEN", 1234);
+        CarteCredit CarteCredit14 = new CarteCredit(300, "BIEN", 3456);
+        CarteCredit CarteCredit16 = new CarteCredit(100, "GREAT", 2349);
+
+        CarteCredit12.AfficherDetails();
+        CarteCredit14.AfficherDetails();
+        CarteCredit16.AfficherDetails();
     }
 }
